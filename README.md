@@ -1,9 +1,20 @@
 # py-fastapi-sample
 
-Python - FastAPI sample.
+FastAPI
 
-## Setup
+## 前提
+
+- Python
+- Poetry
+
+## セットアップ
 
 ```shell
 poetry install
+```
+
+## 実行
+
+```shell
+uvicorn api.main:app --reload
 ```
